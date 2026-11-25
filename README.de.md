@@ -59,6 +59,14 @@ Die `Tabster.ini` (Abschnitt `[Tabster]`) wird beim ersten Start neben dem Plugi
 | `EscAction` | `0` schließt den Tab (Standard), `1` ignoriert Esc, `2` schließt alle Tabs | Was Esc tut |
 | `AllowDuplicates` | `0` (Standard) / `1` | `0`: eine bereits offene Datei wird nicht noch einmal geöffnet, ihr Tab wird gezeigt; `1`: sie wird erneut geöffnet |
 
+## Sprachen
+
+Tabster gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über das Tab-Kontextmenü (*Einstellungen* → *Sprache der Oberfläche*) oder mit `Language=<Name oder Kürzel>` in der `Tabster.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+
+Die Texte stehen in einfachen `.lng`-Dateien im Ordner `Languages`. Für eine neue Sprache kopierst du `Languages\Template.lng`, übersetzt die rechten Seiten und speicherst sie unter einem neuen Namen – sie erscheint dann in der Sprachliste.
+
+Korrekturen und neue Übersetzungen von Muttersprachlern sind sehr willkommen – schick sie bitte als [Issue](https://github.com/naderi/tc-tabster/issues) in diesem Repository.
+
 ## Lizenz
 
 Freeware – frei nutzbar, aber **nicht zum Verkauf**. Siehe [LICENSE](LICENSE).
