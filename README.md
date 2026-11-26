@@ -62,7 +62,7 @@ The keys can be changed in a `[Keys]` section of `Tabster.ini`, one line per act
 
 ## Languages
 
-Tabster speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the tab context menu (*Settings* → *Interface language*) or set `Language=<name or code>` in `Tabster.ini` (for example `Persian` or `fa`; `auto` follows Windows).
+Tabster speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the tab context menu (*Settings* → *Interface language*) or set `Language=<name or code>` in `Tabster.ini` (for example `Persian` or `fa`; `auto` follows Windows, `tc` follows Total Commander's own language – also the entry *Like Total Commander*).
 
 The texts are plain `.lng` files in the `Languages` folder. To add a language, copy `Languages\Template.lng`, translate the right-hand sides and save it under a new name – it appears in the language list.
 

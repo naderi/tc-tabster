@@ -62,7 +62,7 @@ Die `Tabster.ini` (Abschnitt `[Tabster]`) wird beim ersten Start neben dem Plugi
 
 ## Sprachen
 
-Tabster gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über das Tab-Kontextmenü (*Einstellungen* → *Sprache der Oberfläche*) oder mit `Language=<Name oder Kürzel>` in der `Tabster.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+Tabster gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über das Tab-Kontextmenü (*Einstellungen* → *Sprache der Oberfläche*) oder mit `Language=<Name oder Kürzel>` in der `Tabster.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows, `tc` der Sprache von Total Commander – auch als Eintrag *Wie Total Commander*).
 
 Die Texte stehen in einfachen `.lng`-Dateien im Ordner `Languages`. Für eine neue Sprache kopierst du `Languages\Template.lng`, übersetzt die rechten Seiten und speicherst sie unter einem neuen Namen – sie erscheint dann in der Sprachliste.
 
