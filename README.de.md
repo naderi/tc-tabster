@@ -12,9 +12,9 @@ F3 auf einer zweiten Datei, während ein Lister offen ist, und beide landen als 
 - Klick auf einen Tab wechselt, Mittelklick oder die ×-Schaltfläche schließt ihn, Tabs lassen sich per Ziehen umsortieren, ein Tab aus der Leiste gezogen öffnet sich in einem eigenen Fenster
 - **Eine Datei wird nur einmal geöffnet**: F3 auf eine Datei, die schon in einem Tab offen ist, zeigt diesen Tab, statt sie noch einmal zu öffnen (umschaltbar, siehe `AllowDuplicates`)
 - Esc (oder ein anderer Lister-Schließbefehl) schließt nur den aktuellen Tab; das Fenster schließt mit dem letzten Tab
-- Tabbar oben, unten, links oder rechts; Höhe und Breite der Tabs einstellbar
+- Tabbar oben, unten, links oder rechts; Höhe und Breite der Tabs einstellbar; Farbe des aktiven Tabs wählbar
 - Helles und dunkles Design im Windows-11-Look (wie Windows, hell, dunkel oder wie Total Commander)
-- Rechtsklick auf die Leiste: Andere Tabs / Tabs rechts / Alle Tabs schließen, In eigenem Fenster öffnen, Pfad kopieren, Im Explorer anzeigen, Einstellungen, Über Tabster
+- Rechtsklick auf die Leiste: Andere Tabs / Tabs rechts / Alle Tabs schließen, In eigenem Fenster öffnen, Pfad kopieren, Im Explorer anzeigen, Einstellungen (auch *Ini-Datei bearbeiten…*), Über Tabster
 - Benutzeroberfläche auf Deutsch und Englisch (folgt der Windows-Sprache)
 
 ## Download und Installation
@@ -57,6 +57,7 @@ Die `Tabster.ini` (Abschnitt `[Tabster]`) wird beim ersten Start neben dem Plugi
 | `WarnOnClose` | `1` / `0` (Standard `0`) | Vor dem Schließen aller Tabs nachfragen |
 | `OpenNextToCurrent` | `1` / `0` (Standard `0`) | Neuen Tab neben dem aktuellen statt am Ende öffnen |
 | `EscAction` | `0` schließt den Tab (Standard), `1` ignoriert Esc, `2` schließt alle Tabs | Was Esc tut |
+| `ActiveTabColor` | `Accent` (Standard) oder eine Farbe wie `#0078D4` | Farbe des Balkens am aktiven Tab; `Accent` ist die Windows-Akzentfarbe |
 | `AllowDuplicates` | `0` (Standard) / `1` | `0`: eine bereits offene Datei wird nicht noch einmal geöffnet, ihr Tab wird gezeigt; `1`: sie wird erneut geöffnet |
 
 ## Sprachen

@@ -12,9 +12,9 @@ Press F3 on a second file while a Lister is open and both end up as tabs in one 
 - Click a tab to switch, middle click or the × button closes it, drag tabs to reorder, drag a tab out of the bar to open it in its own window
 - **A file is opened only once**: F3 on a file that is already open in a tab shows that tab instead of opening it again (switchable, see `AllowDuplicates`)
 - Esc (or any Lister close command) closes only the current tab; the window closes with the last tab
-- Tab bar at the top, bottom, left or right; tab height and width adjustable
+- Tab bar at the top, bottom, left or right; tab height and width adjustable; color of the active tab selectable
 - Light and dark design in the Windows 11 look (like Windows, light, dark or like Total Commander)
-- Right click on the bar: close other tabs / tabs to the right / all tabs, open in own window, copy path, show in Explorer, settings, About
+- Right click on the bar: close other tabs / tabs to the right / all tabs, open in own window, copy path, show in Explorer, settings (also *Edit ini file…*), About
 - English and German user interface (follows the Windows language)
 
 ## Download and installation
@@ -57,6 +57,7 @@ The keys can be changed in a `[Keys]` section of `Tabster.ini`, one line per act
 | `WarnOnClose` | `1` / `0` (default `0`) | Ask before closing all tabs |
 | `OpenNextToCurrent` | `1` / `0` (default `0`) | Open a new tab next to the current one instead of at the end |
 | `EscAction` | `0` closes the tab (default), `1` ignores Esc, `2` closes all tabs | What Esc does |
+| `ActiveTabColor` | `Accent` (default) or a color like `#0078D4` | Color of the bar on the active tab; `Accent` is the Windows accent color |
 | `AllowDuplicates` | `0` (default) / `1` | `0`: a file that is already open is not opened again, its tab is shown instead; `1`: it is opened again |
 
 ## Languages
